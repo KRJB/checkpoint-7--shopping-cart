@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Basket</title>
+ 
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets\online-shopping-logo.png" alt="img" id="img1">
+            <ul>
+            <li><a href="index.html" class="navi"> Home</a></li>
+            <li><a href="#" class="navi"> Products</a></li>
+            <li><a href="#" class="navi"> About us</a></li>
+        </ul>
+            <a href="index2.html" id="basket"> <img src="https://mk-media.mytek.tn/media/favicon/websites/1/7303favicom-48px.ico" alt="icon"></a>
+            
+        </nav>
+    </header>
+<section id="section1">
+    <div id="section11">
+    <h2 class="bar"> ITEM </h2>
+    <h2 class="bar"> PRICE</h2> 
+    <h2 class="bar"> QUANTITY</h2>
+    </div>
+    <div id="section12">  
+        <div class="prod">
+        <div class="prod-img">
+            <i class="fa fa-heart" style="font-size:48px"></i>
+            <img src="assets\BU-OPPO-A16K-32-BLUE.png" alt="img">
+        </div> 
+        <h4 class="prix"> 499DT</h4>
+        <div>
+            <input class="input" type="number" value="1" min="1">
+            <button class="remove" >remove</button>
+            
+        </div>
+        </div>
+        
+        <div class="prod">
+        <div class="prod-img">
+            <i class="fa fa-heart" style="font-size:48px"></i>
+             <img src="assets\BU-OPPO-RENO7-ORANGE.png" alt="img">
+        </div>     
+        <h4 class="prix"> 1499DT</h4>
+        <div>
+            <input class="input" type="number" value="1" min="1">   
+            <button class="remove" >remove</button>
+        </div>
+        </div >
+
+        <div class="prod">
+        <div class="prod-img">
+            <i class="fa fa-heart" style="font-size:48px"></i>
+            <img src="assets\BU-REDMI-9A-BLUE-3.png" alt="img">
+        </div>
+        <h4 class="prix"> 399DT</h4>
+        <div>
+           <input class="input" type="number" value="1" min="1">   
+           <button class="remove" >remove</button>
+
+        </div>
+        </div >
+
+    </div> 
+    <div class="total">
+        <h2>Total</h2>
+        <h2 id="tot">0 DT</h2>
+        <button>Purchase</button>
+    </div>
+</section>
+<script src="myscript.js"></script>
+</body>
+</html>
